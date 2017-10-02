@@ -1,0 +1,43 @@
+<body>
+<!-- views/partials/content.ejs -->
+<section name="content">
+    <div class="container">
+     <input type="text" id="articulo" placeholder="Buscar Articulo">
+    <button id="bfiltrar" onclick="filtrar()">BUSCAR</button>
+
+ 
+
+
+            <h1><%= title %></h1>
+    <p>Mi Wallaopop | <%= title %></p>
+
+    
+        <div class="col-xs-12 col-md-12">
+            
+            <% lista.forEach(function(anuncio) { %>
+      <h2><%= anuncio.nombre %></h2
+      
+
+<img  class="images" src="http://localhost:3000/images/iphone.png" alt ="<%= anuncio.nombre %>" width="300" height="250"
+        style="{ padding: 20px; }"> 
+         <img class="images" src="<%= anuncio.foto %>" alt="<%= anuncio.nombre %>" width="300" height="250" style="{ padding: 20px; }"> 
+
+
+
+      <% if (anuncio.venta) { %>
+        <p>Venta</p>
+      <% } else { %>
+        <p>Busco</p>
+      <% } %>
+
+       <p><%= anuncio.precio %>€</p>
+        <p><%= anuncio.tags %></p>
+  
+     <% }) %>
+            
+            </div>
+        
+    </div>
+</section>
+
+</body>
