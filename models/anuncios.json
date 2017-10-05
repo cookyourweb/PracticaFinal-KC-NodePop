@@ -3,7 +3,7 @@
         {
             "nombre": "bicicleta",
             "venta": true,
-            "precio": 240.15,
+            "precio": 5,
             "foto": "http://localhost:3000/images/bici.png",
             "tags": [ "lifestyle", "motor"]
         },

@@ -31,7 +31,7 @@ anuncioSchema.statics.list = function(filter, start, limit, callback) {
     query.exec(callback);
 }
 
-// Modelo anuncio
+// Creamos el modelo anuncio
 const Anuncio = mongoose.model('Anuncio', anuncioSchema);
 
 module.exports = Anuncio;
