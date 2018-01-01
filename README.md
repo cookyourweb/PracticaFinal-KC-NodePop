@@ -88,7 +88,7 @@ Consulta múltiple:
 http://localhost:3000/apiv1/anuncios/?tags=lifestyle&venta=true&precio=50
 
 Archivo estático
-http://localhost:3000/images/bicicleta.png
+http://localhost:3000/images/bici.png
 
 # Para publicar un nuevo anuncio se utiliza Postam
 Seleccionar Post>Body e insertar la dirección a los anuncios:

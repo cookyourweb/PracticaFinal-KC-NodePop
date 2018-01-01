@@ -11,7 +11,7 @@
       "articulo": "Bicicleta eléctrica",
       "venta": false,
       "precio": 200.0,
-      "foto": "http://localhost:4000/images/bici.png",
+      "foto": "http://localhost:3000/images/bici.png",
       "tags": ["motor", "mobile"]
     }
   ]
